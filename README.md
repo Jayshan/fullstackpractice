@@ -6,3 +6,5 @@ Let's hope I can look back at this one day and laugh at how far I've come.
 Looks like I managed to connect my Git repo to my GitHub account. Step 1 complete?
 
 Going to try another addition and then commit.
+
+Tried to remove the .DS_Store file from the repo without deleting it in my local directory. Let's see of it works!
