@@ -10,3 +10,5 @@ Going to try another addition and then commit.
 Tried to remove the .DS_Store file from the repo without deleting it in my local directory. Let's see of it works!
 
 I have created a new branch called "feature-readmeupdate" to try and go through the process of a pull request on GitHub.
+
+Adding another line via Github editor.
