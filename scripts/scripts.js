@@ -1,4 +1,4 @@
-function TestBranch()
+function AlertMessage()
 {
     alert("Random message");
 }
