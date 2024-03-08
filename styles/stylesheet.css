@@ -61,18 +61,13 @@ li:hover {
     display: none;
 }
 
-/* .galleryitem:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: box-shadow 0.3s ease-in-out;
-} */
-
 .galleryitem img:hover {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.3s ease-in-out;
 }
 
-.galleryitem:hover p {
+.galleryitem a:hover + p {
     display: block;
     transition: display 0.3s;
 }
