@@ -25,3 +25,19 @@ function ChangeCase(lettercase)
         document.getElementById("p1").innerText = "The case entered was wrong";
     }
 }
+
+//Seems like the array find() function always takes in a function with default built in parameters
+//That's why you don't have to pass any parameters when calling myFunction
+//value is the only required parameter, index and array are optional
+function ArrayFind()
+{
+    const numbers = [4, 9, 16, 25, 29];
+            let first = numbers.find(myFunction);
+    
+            document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+    
+            function myFunction(value, index, array) {
+            return value > 18;
+            }
+
+}
